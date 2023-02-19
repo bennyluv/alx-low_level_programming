@@ -1,16 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Print only values in units
+ *main - Entry point
+ *use of tr
  *Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int num;
-for (num = 0; num <= 9; num++)
-printf("%d", num);
+char no_e_q;
+for (no_e_q = 'a'; no_e_q <= 'z'; no_e_q++)
+{
+if (no_e_q == 'q' || no_e_q == 'e')
+{
+continue;
+}
+putchar(no_e_q);
+}
 putchar('\n');
 return (0);
 }
