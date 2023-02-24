@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- *Return: Always 0 (Success)
+ * main - print _putchar
+ * is written by benny
+ * Return: 0
  */
 
 int main(void)
 {
-char put[8] = "_putchar";
-int i;
-for (i = 0; put[i]; i++)
-{
-_putchar(put[i]);
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 _putchar('\n');
 return (0);
 }
